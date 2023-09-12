@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Outfit:wght@200;400;700;800&display=swap");
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  word-break: keep-all;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  color: #315c7b;
+  font-family: "Outfit", "NanumSquareNeo-Variable", sans-serif;
+  overflow-x: hidden;
+  font-size: 14px;
+  background: #ece2d9;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overscroll-behavior: none;
+  /* background-color: #000000; */
+  height: 100vh;
+  width: 100%;
+}
+
+main {
+  /* position: fixed; */
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  min-height: 100vh;
+}
+
+.scrollable {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  will-change: transform;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 1.5rem;
+}
+header > * {
+}
+
+header ul {
+  display: flex;
+  gap: 1.5rem;
+  width: 10px;
+}
+header ul li {
+  white-space: nowrap;
+}
+
+header h1 {
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.sect0 {
+  height: 100vh;
+  background: url(./images/vizzart_main.jpg) no-repeat center 130%;
+  text-align: center;
+  background-color: #ece2d9;
+}
+
+.sect0 h2 {
+  font-size: 19.2rem;
+  text-align: center;
+  margin-bottom: -25px;
+}
+
+.sect0 a {
+  padding: 0.5rem 1rem;
+  border: 1px solid #315c7b;
+  border-radius: 50px;
+}
+
+.product-list {
+  /* width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: 6rem;
+  font-size: 1.5rem; */
+  color: #bfb6ae;
+}
+.product-list .active {
+  color: #315c7b;
+}
+
+.coating .container {
+  background: url(./images/silversky-upper.jpeg) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.coating {
+  color: #ece2d9;
+}
+header ul:nth-child(2) {
+  justify-content: center;
+}
+
+.coating,
+.list {
+  height: 100vh;
+}
+
+.coating footer,
+.list footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.list .sect_wrap {
+  margin: 0 3rem;
+  display: flex;
+  gap: 1.5rem;
+}
+.list .sect1 {
+  padding-top: 10rem;
+}
+
+.list .sect_wrap .box {
+  width: 33.3%;
+}
+.list .sect_wrap .imgbox {
+  padding: 3rem 1rem;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+.list .sect_wrap .box img {
+  width: 100%;
+}
+.list .sect_wrap h2 {
+  font-size: 32px;
+}
